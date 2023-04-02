@@ -14,10 +14,14 @@ An C++ implementation for multi-threaded sorting, using TimSort algorithm
 multiThreadSort(T *array, Proj proj, Cmp cmp, int Len, int n)
 ```
 
-**T*array：** Array pointer.
+**T\*array：** Array pointer.
+
 **Proj proj, Cmp cmp：** [projection function](https://ezoeryou.github.io/blog/article/2019-01-22-ranges-projection.html) 和 [std::less](https://en.cppreference.com/w/cpp/utility/functional/identity)
+
 **int Len：** length of array
+
 **int n：** 线程数为2的幂（ a number of threads that is a power of 2.），例如1、2、4、8、16、32 等
+
 
 下面给出了具体代码演示：
 
